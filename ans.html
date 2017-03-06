@@ -1,0 +1,41 @@
+<html>
+<head>
+<style type="text/css">
+	form.all{
+		margin-left: 25%;
+		margin-top: 5%;
+		font-size: 28px;
+	}
+	input[type="poster"]
+	{
+		background-color: #CCCCCC;
+		border:1px  solid #ADADAD;
+		width: 200px;
+		height: 30px;
+		font-size: 20px;
+	}
+	input[type="title"]
+	{
+		background-color: #CCCCCC;
+		border:1px  solid #ADADAD;
+		width: 450px;
+		height: 35px;
+		font-size: 30px;	}
+	input[type="submit"]
+	{
+		width:17%;
+		height:7%;
+		font-size: 16px;
+	}
+</style>
+</head>
+<body>
+<form class="all" action="newtopic.php" method="post">
+	主题：<br><input type="title" name="title" value="[]"><br><br>
+	作者：<br><input type="poster" name="name" ><br><br>
+	内容：<br><textarea name="content" rows="15" cols="80"></textarea><br><br>
+	<input type="submit" value="发表新主题" >&nbsp&nbsp&nbsp<button style="width:13%;height:7%;font-size: 15px">取消</button>
+</form>
+
+</body>
+</html>
